@@ -1,0 +1,4 @@
+/* white background for rich text areas in admin forms */
+.wp_themeSkin .mceIframeContainer {
+	background-color: #fff;
+}

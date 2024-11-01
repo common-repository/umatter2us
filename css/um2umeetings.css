@@ -1,0 +1,53 @@
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+#um2u_invitee_list li, #um2u_group_list li {
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#um2u_meeting_repetition th {
+	vertical-align: top;
+	text-align: right;
+}
+#um2u_meeting_repetition_occurrences {
+	width: 35px;
+}
+.um2u_exceptions {
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+	margin-bottom: 10px;
+	border: 1px solid #dfdfdf;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.um2u_exceptions th {
+	text-align: center !important;
+}
+.um2u_exceptions td {
+	width: 14%;
+	height: 32px;
+	margin: 0 0.14%;
+	text-align: right;
+	vertical-align: top;
+	border: 1px solid #dfdfdf;
+	background-color: #f9f9f9;
+	border-radius: 3px;
+}
+.um2u_exceptions td:hover {
+	background-color: #ddd;
+}
+.um2u_exceptions td label {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.um2u_exceptions td label input {
+	margin-right: 5px;
+}

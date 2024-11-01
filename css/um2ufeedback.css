@@ -1,0 +1,65 @@
+/****
+* This is the cascading style sheet for the feedback section of the umatter2us admin dashboard.
+*
+*
+*@author: Michael Sliwinski
+*/
+
+/*This is the style rules for tables on the admin dashboard*/
+
+table.um2u_dashboard_table {
+    height: 285px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+table.um2u_dashboard_table thead {
+	color: #464646;
+	background-color: #f1f1f1;
+	border-bottom-color: #dfdfdf;
+	text-shadow: #fff 0 1px 0;
+	-moz-box-shadow: 0 1px 0 #fff;
+	-webkit-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #fff;
+	background-image: linear-gradient( top, #f9f9f9, #ececec);
+	display: block;
+	width: 100%;
+}
+
+table.um2u_dashboard_table thead tr th + th + th {
+	width: 100%;
+}
+
+table.um2u_dashboard_table thead th:nth-child(1) {
+	width: 80%;
+}
+table.um2u_dashboard_table thead th:nth-child(2) {
+	width: 10%;
+}
+table.um2u_dashboard_table thead th:nth-child(3) {
+	width: 10%;
+}
+table.um2u_dashboard_table tbody {
+	overflow-y: scroll;
+	max-height: 350px;
+	display: block;
+}
+
+table.um2u_dashboard_table tbody tr:nth-child(odd) {
+	background: #FFFFFF;
+}
+
+table.um2u_dashboard_table tbody tr th + td + td {
+	width: 100%;
+}
+
+table.um2u_dashboard_table tbody td {
+	text-align: center;
+}
+
+table.um2u_dashboard_table tbody th {
+	width: 80%;
+}
+table.um2u_dashboard_table tbody td {
+	width: 10%;
+}

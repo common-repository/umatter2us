@@ -1,0 +1,68 @@
+div.author { margin-bottom: 2em; }
+ul.objective_progress {
+	margin:0 !important;
+	padding:0 !important;
+	border:0 !important;
+	width: 120px;
+	height: 24px;
+	background: transparent url( ../images/levels.png ) 0 0 no-repeat;
+}
+ul.objective_progress.level1 { background-position: 0 -24px; }
+ul.objective_progress.level2 { background-position: 0 -48px; }
+ul.objective_progress.level3 { background-position: 0 -72px; }
+ul.objective_progress.level4 { background-position: 0 -96px; }
+ul.objective_progress li {
+	margin:0;
+	border:0;
+	padding:0;
+	list-style: none;
+	float: left;
+	overflow: visible;
+}
+ul.objective_progress li a {
+	display: block;
+	text-decoration: none;
+	text-indent: -9999px;
+	height: 24px;
+	width: 24px;
+}
+ul#um2u_adopters li.um2u_progress_0, 
+ul#um2u_adopters li.um2u_progress_1, 
+ul#um2u_adopters li.um2u_progress_2, 
+ul#um2u_adopters li.um2u_progress_3, 
+ul#um2u_adopters li.um2u_progress_4 {
+	padding-top: 3px;
+	padding-left: 28px;
+	background: transparent url(../images/level.png) 0 0 no-repeat;
+	overflow: hidden;
+}
+ul#um2u_adopters li.um2u_progress_1 {
+	background-position: 0 -24px;
+}
+ul#um2u_adopters li.um2u_progress_2 {
+	background-position: 0 -48px;
+}
+ul#um2u_adopters li.um2u_progress_3 {
+	background-position: 0 -72px;
+}
+ul#um2u_adopters li.um2u_progress_4 {
+	background-position: 0 -96px;
+}
+span.toggler {
+	font-size: 75%;
+	font-weight: normal;
+}
+#my_objectives_adopted table { width: auto; margin-left: 2em; }
+#my_objectives_adopted table td {
+	padding: 0 5px 1px 0;
+	vertical-align: middle;
+}
+#my_goals ul { margin: 0; list-style-type: none;}
+#my_goals li { padding-left: 40px; }
+#my_goals li.achieved { background: transparent url( ../images/check.png ) 0 0 no-repeat; }
+#my_goals li.evidence { background: transparent url( ../images/evidence.png ) 22px 2px no-repeat; }
+#my_goals li.achieved.evidence { 
+	background-image: url( ../images/check.png ), url( ../images/evidence.png );
+	background-position: 0 0, 22px 2px;
+	background-repeat: no-repeat;
+}
